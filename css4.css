@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 10px auto 0px;
+    width: 1210px;
+    height: 35px;
+}
+ul ul {
+    display: none;
+}
+ul li:hover> ul {
+    display: block;
+}
+ul li {
+    float: right;
+    list-style: none;
+    width: 100px;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    color: #4e9cd4;
+    background: #085392;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    padding: auto 0;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+}
+li a:hover {
+   color: white;
+   background: #71afec;
+   transition: 0.8s; 
+}
+.first {
+    width: 445px; 
+}
+.first a {
+    text-align: right;
+    padding:0 20px 0 250px;
+}
+.last {
+    width: 206px;
+}
+.flag {
+    position: relative;
+    width: 158px;
+    border-left:1px solid #4e9cd4;
+}
+.tab {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 7px;
+    right: 127px;
+} 
+main {
+    margin: auto;
+    width: 1210px;
+    height: 1080px;
+    background-image: url(./img/Background\ copy.png);
+    background-repeat: no-repeat;
+}
+.section {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 35%;
+}
+h2 {
+    position: absolute;
+    display: block;
+    margin-top: 60%;
+    padding: 10px 0;
+    color: white;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    background: black;
+    opacity: 0.5;
+}
+.data {
+    border-top: 3px solid white; 
+    position: absolute;
+    top: 300px;
+    display: block;
+    padding: 10px 0;
+    color: white;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background: black;
+    opacity: 0.5;
+}
+.fb {
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 50%;
+    height: 35px;
+    background: #80a8ff;
+    text-align: center;
+}
+.sign {
+    position: absolute;
+    float: left;
+    border-radius: 10px 0 0 10px;
+    width: 10%;
+    height: 100%;
+    background: #80a8ff;
+}
+img {
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 35px;
+}
+.txt {
+    padding-top: 10px; 
+    padding-left: 15px;
+    height: 30px;
+}
+a {
+    display: block;
+    font: 14px Tahoma;
+    text-decoration: none;
+    color: white;
+}
+.icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 185px;
+    background-color:  #80a8ff;
+}
+.container {
+    padding: 20px 0;
+}
+hr { 
+    height: 1px; 
+    box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
+}
+input {
+    float: left;
+    width: 200px;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 10px auto;
+	padding: 8px 2px 8px 10px;
+	border-bottom: 1px solid white;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+}
+input:not(:nth-child(n+6)):hover {
+    border: 1px solid #092d52;
+    background: rgba(0, 0, 255, 1);
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 250, 1);
+}
+.point {
+    display: inline;
+    position: absolute;
+    right: 105px;
+    top: 360px;
+} 
+span {
+    position: absolute;
+    top: 398px;
+    right: 105px;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}   
+.point1 {
+    position: absolute;
+    right: 30px;
+    top: 385px;
+    width:70%;
+    background:rgba(0, 0, 100, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+p {
+    position: absolute;
+    top: 470px;
+    left: 50px;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    width: 75%;
+}
+@font-face {
+    font-family: 'fonts';
+    src: url('../test4/fonts/HelveticaNeue.eot') format('embedded-opentype'),
+    url('../test4/fonts/HelveticaNeue.woff') format('woff'),
+    url('../test4/fonts/HelveticaNeue.ttf') format('truetype'),
+    url('../test4/fonts/HelveticaNeue.svg') format('scalable vector graphics');
+    font-weight: normal;
+    font-style: normal;
+}
